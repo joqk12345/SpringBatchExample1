@@ -1,0 +1,5 @@
+
+create table RAW_REPORT (DATE date,IMPRESSIONS varchar(255),CLICKS varchar(255) ,EARNING varchar(255));
+
+
+insert into RAW_REPORT(DATE,IMPRESSIONS,CLICKS,EARNING) values (:date, :impressions, :clicks, :earning)
